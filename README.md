@@ -32,7 +32,7 @@ cd statistics_for_data_science
 It is recommended to use a virtual environment with Poetry:
 
 ```bash
-poetry install --root
+poetry install --no-root
 ```
 
 ### 3️⃣ Run the Jupyter Notebook
