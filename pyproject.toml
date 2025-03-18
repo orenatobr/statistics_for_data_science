@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "statistics-for-data-science"
+version = "0.1.0"
+description = "Jupyter notebooks with practical implementations of statistical concepts for Data Science."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11.8"
+numpy = "^1.24.0"       # Numerical computations
+pandas = "^1.5.3"       # Data handling and analysis
+scipy = "^1.10.0"       # Statistical tests and probability distributions
+matplotlib = "^3.7.0"   # Data visualization
+seaborn = "^0.12.0"     # Statistical data visualization
+scikit-learn = "^1.2.0" # Machine learning models (regression, correlation)
+jupyter = "^1.0.0"      # Running Jupyter notebooks
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.6.0" # Enhanced Jupyter interface
+black = "^23.1.0"     # Code formatting
+isort = "^5.11.0"     # Import sorting
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
